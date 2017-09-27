@@ -9,7 +9,6 @@ class App extends React.Component {
 		
     }
   }
-  
   mainNav(page){
     browserHistory.push(page)
   }
