@@ -1,0 +1,11 @@
+.Down .banner{width:100%;height: 9rem;color: white;text-align: center;font-size: .5rem;background: linear-gradient(-180deg, #59BCFF 2%, #3F6AF8 98%);}
+.Down .content{text-align: center;padding: 0px .2rem}
+.Down .content .title1{font-size: 28px;color: #333;margin-top: 1rem;padding-bottom: 15px}
+.Down .content .conSpan{color:rgba(66,70,77,1);font-size: 14px;display: block;text-align: center;line-height: 26px}
+
+
+
+@media screen and (max-width: 768px) {
+  .Down .content .conSpan{display: inline}
+  .Down .content .title1{font-size: .3rem}
+}

@@ -1,0 +1,10 @@
+.Home .banner{width:100%;height: 3.5rem;line-height: 3.5rem;color: white;text-align: center;font-size: 35px;background: linear-gradient(to right, #b1e1af , #6fcfc1);}
+.Home .content{text-align: center;padding: 0px .2rem}
+.Home .content .title1{font-size: 24px;color: #333;margin-top: 1rem;padding-bottom: 15px}
+.Home .content .conSpan{color: #999;font-size: 14px;display: block;text-align: center;line-height: 30px}
+
+
+
+@media screen and (max-width: 768px) {
+  .Home .content .conSpan{display: inline}
+}

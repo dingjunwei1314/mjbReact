@@ -1,0 +1,8 @@
+*{font-family: "微软雅黑"}
+.row{margin-right: 0px;margin-left: 0px}
+.navbar-brand{padding: 10px;cursor: pointer;font-size: 14px;line-height: 30px;color: #313131!important;text-shadow: none}
+.navbar-toggle{border: 1px solid transparent!important;background-color: transparent!important}
+.navbar-inverse .navbar-toggle .icon-bar{background-color: #313131}
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a{text-shadow: none}
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{color: #99ace6}
+.App{padding-top: 50px;}
