@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_section4_gas_station</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#B1E2AF" offset="0%"></stop>
+            <stop stop-color="#6ED0C1" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="32" y="26" width="20" height="46" rx="1"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="3_板块内容" transform="translate(-860.000000, -1681.000000)">
+            <g id="icon_section4_gas_station" transform="translate(860.000000, 1681.000000)">
+                <rect id="Rectangle-7" fill="url(#linearGradient-1)" x="0" y="0" width="100" height="100" rx="50"></rect>
+                <g id="Rectangle-24">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <rect stroke="#242424" stroke-width="4" x="30" y="24" width="24" height="50" rx="1"></rect>
+                </g>
+                <rect id="Rectangle-25" fill="#6ED0C1" x="33" y="51" width="18" height="6"></rect>
+                <rect id="Rectangle-25-Copy-2" fill="#242424" x="34" y="33" width="16" height="9" rx="2"></rect>
+                <rect id="Rectangle-25-Copy" fill="#B0E1AE" x="33" y="57" width="18" height="6"></rect>
+                <path d="M56.2021484,48.9492187 L63.1334011,48.9492187 L63.1334011,48.9492187 C64.2379706,48.9492187 65.1334011,49.8446493 65.1334011,50.9492187 L65.1334011,71.9445573 L65.1334011,71.9445573 C65.1334011,73.0491268 66.0288316,73.9445573 67.1334011,73.9445573 L74.0296407,73.9445573 L74.0296407,73.9445573 C75.1342102,73.9445573 76.0296407,73.0491268 76.0296407,71.9445573 L76.0296407,34.9921875 L68.6884766,25.2958984" id="Path-6" stroke="#242424" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M75.7587891,35.0517578 L68.0585938,40.7021484" id="Path-7" stroke="#242424" stroke-width="4" stroke-linecap="round"></path>
+                <polyline id="Path-8" stroke="#242424" stroke-width="4" stroke-linecap="round" points="25.1367279 74 55.5396683 74 59.1367279 74"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

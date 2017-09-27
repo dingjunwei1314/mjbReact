@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="101px" height="101px" viewBox="0 0 101 101" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_section1_chart</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#B1E2AF" offset="0%"></stop>
+            <stop stop-color="#6ED0C1" offset="100%"></stop>
+        </linearGradient>
+        <path d="M24.8374181,4.08534616 C10.9368822,5.18696601 0,16.8162601 0,31 C0,39.1839016 3.64110182,46.5173784 9.39171325,51.468838 L24.8374181,31 L24.8374181,4.08534616 Z" id="path-2"></path>
+        <path d="M0.5,21 C0.5,25.2484732 1.7377622,29.334598 4.03173548,32.8149116 L14.3374181,19.1576942 L14.3374181,0.902085526 C6.12368476,4.02877091 0.5,11.9750476 0.5,21 Z" id="path-3"></path>
+        <path d="M11.6553156,53.2187623 C16.0127228,56.2337726 21.3000992,58 27,58 C41.9116882,58 54,45.9116882 54,31 C54,30.0892632 53.9549082,29.1890583 53.8668353,28.3014958 L27.8686523,32.1469727 L11.6553156,53.2187623 Z" id="path-5"></path>
+        <polygon id="path-6" points="0.284667969 0.475585938 0.284667969 29.3154297 31.9833984 24.2958984 27.7456055 5.94824219"></polygon>
+        <circle id="path-8" cx="27" cy="27" r="27"></circle>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1_首页" transform="translate(-819.000000, -1301.000000)">
+            <g id="icon_section1_chart" transform="translate(819.000000, 1301.000000)">
+                <g id="Group-23" transform="translate(0.646447, 0.853553)" fill="url(#linearGradient-1)">
+                    <rect id="Rectangle-7-Copy" transform="translate(50.000000, 50.000000) rotate(-270.000000) translate(-50.000000, -50.000000) " x="0" y="0" width="100" height="100" rx="50"></rect>
+                </g>
+                <g id="Group-25" transform="translate(25.000000, 20.000000)">
+                    <g id="Mask">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        <path stroke="#242424" stroke-width="4" d="M22.8374181,6.3444143 C10.9546497,8.33224379 2,18.6744749 2,31 C2,37.6476095 4.60743177,43.8683522 9.13482199,48.4889195 L22.8374181,30.3300706 L22.8374181,6.3444143 Z"></path>
+                    </g>
+                    <g id="Rectangle-10-+-Rectangle-10-Copy-Mask" transform="translate(5.000000, 10.000000)">
+                        <g>
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <use id="Mask" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-3"></use>
+                            <rect id="Rectangle-10" fill="#6FD0C1" mask="url(#mask-4)" x="-2" y="10" width="19" height="7"></rect>
+                            <rect id="Rectangle-10-Copy" fill="#C1FFEA" mask="url(#mask-4)" x="-2" y="17" width="19" height="7"></rect>
+                        </g>
+                    </g>
+                    <g id="Oval-2">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                        <path stroke="#242424" stroke-width="4" d="M14.5774502,52.7006887 C18.3170414,54.8470605 22.5703213,56 27,56 C40.8071187,56 52,44.8071187 52,31 C52,30.8664775 51.9989551,30.7330913 51.9968676,30.5998489 L28.9608577,34.0071809 L14.5774502,52.7006887 Z"></path>
+                    </g>
+                    <g id="Group-24" transform="translate(27.000000, 0.000000)">
+                        <mask id="mask-7" fill="white">
+                            <use xlink:href="#path-6"></use>
+                        </mask>
+                        <g id="Mask"></g>
+                        <g mask="url(#mask-7)">
+                            <g transform="translate(-27.000000, 4.000000)">
+                                <mask id="mask-9" fill="white">
+                                    <use xlink:href="#path-8"></use>
+                                </mask>
+                                <use id="Mask" stroke="none" fill="#FFFFFF" fill-rule="evenodd" opacity="0" xlink:href="#path-8"></use>
+                                <g id="Group-24" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" mask="url(#mask-9)">
+                                    <g transform="translate(37.097875, 13.855234) rotate(-45.000000) translate(-37.097875, -13.855234) translate(13.597875, -3.644766)" fill="#FFFFFF">
+                                        <rect id="Rectangle-22" x="0" y="13.5008405" width="46.1278718" height="3.37521013"></rect>
+                                        <rect id="Rectangle-22-Copy-5" x="0" y="9.00056034" width="46.1278718" height="3.37521013"></rect>
+                                        <rect id="Rectangle-22-Copy-6" x="0" y="4.50028017" width="46.1278718" height="3.37521013"></rect>
+                                        <rect id="Rectangle-22-Copy-7" x="0" y="0" width="46.1278718" height="3.37521013"></rect>
+                                        <rect id="Rectangle-22-Copy" x="0" y="18.0011207" width="46.1278718" height="3.37521013"></rect>
+                                        <rect id="Rectangle-22-Copy-2" x="0" y="22.5014009" width="46.1278718" height="3.37521013"></rect>
+                                        <rect id="Rectangle-22-Copy-3" x="0" y="27.001681" width="46.1278718" height="3.37521013"></rect>
+                                        <rect id="Rectangle-22-Copy-4" x="0" y="31.5019612" width="46.1278718" height="3.37521013"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

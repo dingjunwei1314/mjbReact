@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_section4_market</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#B1E2AF" offset="0%"></stop>
+            <stop stop-color="#6ED0C1" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-2" points="45.133659 77 38 46.1416063 55.437833 21 73 29.6257063 68.3452487 77"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="3_板块内容" transform="translate(-550.000000, -1681.000000)">
+            <g id="icon_section4_market" transform="translate(550.000000, 1681.000000)">
+                <rect id="Rectangle-7" fill="url(#linearGradient-1)" x="0" y="0" width="100" height="100" rx="50"></rect>
+                <path d="M29.5974071,62 L32.5110721,62 L32.5110721,62 C37.2487724,62 41.7428622,64.0996455 44.7828666,67.7334007 L54.2085183,79 L33.4307405,79 L25.8746782,69.9681443 L25.8746782,69.9681443 C24.1546206,67.9121379 24.4269608,64.8510331 26.4829673,63.1309755 C27.3563126,62.4003336 28.458737,62 29.5974071,62 Z" id="Rectangle-8" stroke="#242424" stroke-width="4" fill="#FFFFFF"></path>
+                <g id="Path-12">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <path stroke="#242424" stroke-width="4" d="M43.5432611,79 L35.851953,45.7293581 L54.7750807,18.4462764 L75.125968,28.4416703 L70.1583699,79 L43.5432611,79 Z"></path>
+                </g>
+                <path d="M55,20 L55,78" id="Path-13" stroke="#242424" stroke-width="4"></path>
+                <polyline id="Path-3" stroke="#242424" stroke-width="4" points="39.2441406 58.6191406 54.9140625 42.2285156 73.28125 49.4238281"></polyline>
+                <polyline id="Path-4" stroke="#242424" stroke-width="4" points="41.3554688 69.7304688 55.3886719 59.5527344 71.8886719 67.1416016"></polyline>
+                <path d="M26.6738281,71.5449219 L41.2642497,71.5449219" id="Path-14" stroke="#242424" stroke-width="4"></path>
+                <polygon id="Rectangle-36" fill="#6FD0C1" points="58 48 69.565918 52.262207 68.7158203 62.1601562 58.1499023 56.8979492"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

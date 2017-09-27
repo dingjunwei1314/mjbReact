@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_section2_renovation</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="4.03977997%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#88CCFF" offset="0%"></stop>
+            <stop stop-color="#5880F3" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="33.25" y="27" width="35.75" height="14.6257053" rx="2"></rect>
+        <rect id="path-3" x="40.5833333" y="67.2206897" width="20.1666667" height="5.4846395" rx="1"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="3_板块内容" transform="translate(-860.000000, -341.000000)">
+            <g id="icon_section2_renovation" transform="translate(860.000000, 341.000000)">
+                <g id="renovation">
+                    <rect id="Rectangle-7" fill="url(#linearGradient-1)" x="0" y="0" width="100" height="100" rx="50"></rect>
+                    <g id="Group-17" transform="translate(25.000000, 27.000000)">
+                        <g id="Group"></g>
+                    </g>
+                </g>
+                <g id="Rectangle-23">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <rect stroke="#242424" stroke-width="4" x="31.25" y="25" width="39.75" height="18.6257053" rx="2"></rect>
+                </g>
+                <polyline id="Path-5" stroke="#242424" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" points="30.7814182 35.2269592 25 35.2269592 25 52.2632684 50.6666667 52.2632684 50.6666667 59.907837"></polyline>
+                <g id="Rectangle-23-Copy" transform="translate(50.666667, 69.963009) rotate(-270.000000) translate(-50.666667, -69.963009) ">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <rect stroke="#242424" stroke-width="4" x="38.5833333" y="65.2206897" width="24.1666667" height="9.4846395" rx="1"></rect>
+                </g>
+                <path d="M36,29 L66,29 L66,29 C66.5522847,29 67,29.4477153 67,30 L67,34 L35,34 L35,30 L35,30 C35,29.4477153 35.4477153,29 36,29 Z" id="Rectangle" fill="#5C86F4"></path>
+                <rect id="Rectangle-Copy" fill="#85C8FE" x="35" y="34" width="32" height="5"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

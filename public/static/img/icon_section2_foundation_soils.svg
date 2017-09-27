@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_section2_foundation_soils</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="4.03977997%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#88CCFF" offset="0%"></stop>
+            <stop stop-color="#5880F3" offset="100%"></stop>
+        </linearGradient>
+        <path d="M41.4481939,35.9130844 L77.2994267,15.9983957 L77.2994267,15.9983957 C77.7822256,15.7302099 78.391019,15.9041883 78.6592048,16.3869872 C78.8246937,16.684907 78.8270668,17.0465955 78.6655015,17.3466611 L59.1443483,53.602134 L59.1443483,53.602134 C59.0526292,53.7724783 58.9134664,53.9125597 58.7437291,54.0053973 L22.6938633,73.7228319 L22.6938633,73.7228319 C22.2093197,73.9878525 21.6016778,73.809894 21.3366572,73.3253503 C21.1731237,73.0263581 21.1731152,72.6646673 21.3366345,72.3656673 L41.0564207,36.3074485 L41.0564207,36.3074485 C41.1471161,36.1416093 41.2829562,36.0048709 41.4481939,35.9130844 Z" id="path-2"></path>
+        <polygon id="path-3" points="5.18035889 0.895263672 0.546142578 2.32543945 0.546142578 17.4697476 41.6291504 32.699707 41.6291504 11.5727887"></polygon>
+        <polyline id="path-5" points="41.6591797 12.5068409 0.5 0 0.5 0 0.5 17.5440479 41.6591797 32.762207"></polyline>
+        <polygon id="path-6" points="5.18035889 0.895263672 0.546142578 2.32543945 0.546142578 17.4697476 41.6291504 32.699707 41.6291504 11.5727887"></polygon>
+        <polyline id="path-8" points="41.6591797 12.5068409 0.5 0 0.5 0 0.5 17.5440479 41.6591797 32.762207"></polyline>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="3_板块内容" transform="translate(-240.000000, -341.000000)">
+            <g id="icon_section2_foundation_soils" transform="translate(240.000000, 341.000000)">
+                <rect id="Rectangle-7" fill="url(#linearGradient-1)" x="0" y="0" width="100" height="100" rx="50"></rect>
+                <g id="Group-26" transform="translate(9.000000, 4.000000)"></g>
+                <g id="Rectangle-30-Copy-6" transform="translate(49.999511, 44.859037) rotate(-315.000000) translate(-49.999511, -44.859037) ">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <path stroke="#242424" stroke-width="4" d="M42.6723206,37.5209506 L24.729578,70.329792 L57.5239228,52.392961 L75.2858869,19.404725 L42.6723206,37.5209506 Z"></path>
+                </g>
+                <path d="M32,50 L65.5993652,39.1853027" id="Path-16" stroke="#242424" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M33.8632812,39.4472656 L66,50" id="Path-17" stroke="#242424" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                <g id="Path-18" transform="translate(9.000000, 42.000000)">
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <g id="Mask" opacity="0.400000006"></g>
+                    <g mask="url(#mask-4)">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                        <path stroke="#242424" stroke-width="4" d="M39.6591797,13.9894062 L2.5,2.69802603 L2.5,16.1511969 L39.6591797,29.8903995 L39.6591797,13.9894062 Z"></path>
+                    </g>
+                </g>
+                <g id="Path-18-Copy" transform="translate(71.000000, 58.500000) scale(-1, 1) translate(-71.000000, -58.500000) translate(50.000000, 42.000000)">
+                    <mask id="mask-7" fill="white">
+                        <use xlink:href="#path-6"></use>
+                    </mask>
+                    <g id="Mask" opacity="0.400000006"></g>
+                    <g id="Path-18" mask="url(#mask-7)">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-8"></use>
+                        <path stroke="#242424" stroke-width="4" d="M39.6591797,13.9894062 L2.5,2.69802603 L2.5,16.1511969 L39.6591797,29.8903995 L39.6591797,13.9894062 Z"></path>
+                    </g>
+                </g>
+                <rect id="Rectangle-37" fill="#242424" x="48" y="56" width="4" height="16"></rect>
+                <polygon id="Rectangle-38" fill="#5880F3" points="52 57.6066895 87.5515137 47 87.5515137 51.6984863 52 63.8884277"></polygon>
+                <polygon id="Rectangle-38-Copy" fill="#89CDFF" points="52 63.8344727 87.5515137 51.6809082 87.5515137 57.6984863 52 69.8884277"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

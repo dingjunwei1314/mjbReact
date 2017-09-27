@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_hawkeye_icon1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="4.03977997%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#88CCFF" offset="0%"></stop>
+            <stop stop-color="#5880F3" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="5_鹰眼评分体系" transform="translate(-300.000000, -774.000000)">
+            <g id="icon_hawkeye_icon1" transform="translate(300.000000, 774.000000)">
+                <rect id="Rectangle-7" fill="url(#linearGradient-1)" x="0" y="0" width="100" height="100" rx="50"></rect>
+                <g id="Group-12" transform="translate(26.000000, 27.000000)">
+                    <g id="Group-13">
+                        <rect id="Rectangle-45" stroke="#242424" stroke-width="4" fill="#FFFFFF" x="0" y="0" width="49" height="13.2222222"></rect>
+                        <rect id="Rectangle-45" stroke="#242424" stroke-width="4" fill="#FFFFFF" x="0" y="18.8888889" width="49" height="13.2222222"></rect>
+                        <ellipse id="Oval" fill="#242424" cx="41.65" cy="24.6185185" rx="1.63333333" ry="1.63703704"></ellipse>
+                        <rect id="Rectangle-8" fill="#242424" x="22.6153846" y="33.0555556" width="3.76923077" height="14.1666667"></rect>
+                        <rect id="Rectangle-8-Copy" fill="#242424" transform="translate(24.971154, 49.111111) rotate(-270.000000) translate(-24.971154, -49.111111) " x="23.0865385" y="29.75" width="3.76923077" height="38.7222222"></rect>
+                        <rect id="Rectangle-46" fill="#5982F3" x="2.82692308" y="2.83333333" width="43.3461538" height="3.77777778"></rect>
+                        <rect id="Rectangle-46-Copy" fill="#88CCFF" x="2.82692308" y="6.61111111" width="43.3461538" height="3.77777778"></rect>
+                        <ellipse id="Oval" fill="#242424" cx="41.65" cy="6.67407407" rx="1.63333333" ry="1.63703704"></ellipse>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
