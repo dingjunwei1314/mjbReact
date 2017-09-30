@@ -10,8 +10,12 @@ class Score extends React.Component {
       
     }
   }
+  initPosition(){
+    document.body.scrollTop = document.documentElement.scrollTop = 0;
+  }
   componentDidMount() {
-    console.log(this.props)
+    this.initPosition()
+    this.props.changePage(3)
   }
   render() {
     return (
@@ -35,7 +39,7 @@ class Score extends React.Component {
               <p style={{color:'#42464D',fontSize:'14px',opacity: 0.7,marginBottom:'5px'}}>从而科学的计算出房屋真实的价值评分</p>
             </Col>  
 
-            <Col xs={12} mdOffset={0} md={4} style={{textAlign:'left',paddingLeft:'.65rem'}}>
+            <Col xs={12} mdOffset={0} md={4} style={{textAlign:'left',paddingLeft:'.65rem'}} className="colStyle">
               <embed  src="/static/img/icon_hawkeye_icon2.svg" type="image/svg+xml"/>
               <p style={{color:'#42464D',fontSize:'20px',marginBottom:'15px',marginTop:'5px'}}>评分数据模型通过哪些维度建立</p>
               <p style={{color:'#42464D',fontSize:'14px',opacity: 0.7,marginBottom:'5px'}}>评分体系模型分为工程质量、周边配套等三大类别</p>
@@ -54,7 +58,7 @@ class Score extends React.Component {
               <p style={{color:'#42464D',fontSize:'14px',opacity: 0.7,marginBottom:'5px'}}>会根据整改结果动态调整评分结果</p>
             </Col>  
 
-            <Col xs={12} mdOffset={0} md={4} style={{textAlign:'left',paddingLeft:'.65rem'}}>
+            <Col xs={12} mdOffset={0} md={4} style={{textAlign:'left',paddingLeft:'.65rem'}} className="colStyle">
               <embed  src="/static/img/icon_hawkeye_icon4.svg" type="image/svg+xml"/>
               <p style={{color:'#42464D',fontSize:'20px',marginBottom:'15px',marginTop:'5px'}}>价值评分体系通过哪些技术实现</p>
               <p style={{color:'#42464D',fontSize:'14px',opacity: 0.7,marginBottom:'5px'}}>楼盘质量数据使用大数据采集及专人人员人工跟踪相结合的方式</p>
@@ -72,14 +76,14 @@ class Score extends React.Component {
 
 
 function mapStateToProps(state) {
-  return {card:state.card}
+  return {}
 }
 
 function mapDispatchToProps(dispatch) {
   return {
-    handle: (name) => dispatch({
-      type: 'CHANGE_NAME',
-      name: name
+    changePage: (page) => dispatch({
+      type: 'CHANGE_PAGE',
+      page: page
     })
   }
 }

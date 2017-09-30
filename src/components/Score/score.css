@@ -1,12 +1,13 @@
 .Score .banner{width:100%;height: 3.5rem;line-height: 3.5rem;color: white;text-align: center;font-size: .5rem;background: linear-gradient(-180deg, #FCC897 2%, #EEA763 98%);}
 .Score .content{text-align: center;padding: 0px .2rem}
 .Score .content .title1{font-size: 28px;color: #333;margin-top: 1rem;padding-bottom: 15px}
-.Score .content .conSpan{color: rgba(66,70,77,1);font-size: 14px;display: block;text-align: center;line-height: 26px}
+.Score .content .conSpan{color: rgba(66,70,77,1);font-size: 14px;display: block;text-align: center;line-height: 26px;opacity: .7}
 
 
 
 @media screen and (max-width: 768px) {
   .Score .content .conSpan{display: inline}
   .Score .content .title1{font-size: .3rem}
+  .Score .colStyle{margin-top: .9rem}
 }
 

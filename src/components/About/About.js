@@ -10,9 +10,12 @@ class About extends React.Component {
       
     }
   }
-  
+  initPosition(){
+    document.body.scrollTop = document.documentElement.scrollTop = 0;
+  }
   componentDidMount() {
-    console.log(this.props)
+    this.initPosition()
+    this.props.changePage(4)
   }
   render() {
     return (
@@ -45,15 +48,6 @@ class About extends React.Component {
           </Row>
           <Foot/>
         </div>
-
-        {
-        /*
-        {this.props.card.name}
-        <h1>{this.state.name}</h1>
-        <Button>Default</Button>
-        <button onClick={this.props.handle.bind(this,'我的名字')}>点击</button>
-        */
-        }
       </div>
     );
   }
@@ -61,14 +55,14 @@ class About extends React.Component {
 
 
 function mapStateToProps(state) {
-  return {card:state.card}
+  return {}
 }
 
 function mapDispatchToProps(dispatch) {
   return {
-    handle: (name) => dispatch({
-      type: 'CHANGE_NAME',
-      name: name
+    changePage: (page) => dispatch({
+      type: 'CHANGE_PAGE',
+      page: page
     })
   }
 }

@@ -6,9 +6,8 @@ import reducer from './reducers'
 
 // 创建一个初始化的state
 var initState = {
-  card: {
-    name: 'djw',
-    picture: ''
+  page:{
+    page:1
   }
 }
 

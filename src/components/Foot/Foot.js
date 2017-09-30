@@ -16,7 +16,7 @@ class Foot extends React.Component {
       <div className="Foot" style={{textAlign:'center'}}>
      
           <Row className="show-grid">
-            <Col xs={24}  md={12} style={{marginTop:'1.2rem',padding:'20px 0px',borderTop:'1px solid #eee',borderBottom:'1px solid #eee'}}>
+            <Col xs={24}  md={12} style={{marginTop:'.4rem',padding:'20px 0px',borderTop:'1px solid #eee',borderBottom:'1px solid #eee'}}>
               <embed  src="/static/img/hawkeye_logo_blue.svg" width={150} type="image/svg+xml"/>
               <div>
                 <embed  src="/static/img/logo_weibo_n.svg" style={{margin:'10px 20px'}} width={25} type="image/svg+xml"/>

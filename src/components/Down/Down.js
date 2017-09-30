@@ -8,7 +8,7 @@ function Welcome(props) {
 	return <div className = 'downTitleC animated bounceInLeft'  ><p >鹰眼鉴房</p><p>快速甄别良心好房产</p></div>;
 }
 function DownTitleImg(props) {
-	return  <img className='title '  src={props.img} type="image/png"/>;
+	return  <img className='title '  src={props.img} type="image/png" alt=""/>;
 }
 function DownBar(props) {
 	
@@ -63,7 +63,8 @@ class Down extends React.Component {
 		}
 	}
 	componentDidMount() {
-
+		document.body.scrollTop = document.documentElement.scrollTop = 0;
+    this.props.changePage(2)
 	}
 	clickHandleIp = (e) =>{
 		if(!e){
@@ -89,6 +90,7 @@ class Down extends React.Component {
 		
 		return (
 		  <div className="Down">
+			
 				<div className="banner">
 					<Welcome name='haha' />
 					<DownTitleImg className='title' img = '/static/img/img_download_top.png' />
@@ -97,6 +99,7 @@ class Down extends React.Component {
 					<QuickMark classNames='QuickMark animated flip' isShow={this.state.isShow} img='/static/img/er.png' />
 					<QuickMark classNames='QuickMarkAr animated flip' isShow={this.state.isShowAr} img='/static/img/erweima.png' style = {{left:0}} />
 				</div>
+		
 				<div className="whiterText">
 						  <Row className = 'rowTitle'>
 							 <Col style={{paddingLeft:'2rem'}} className='tryHeight' xs={12}  md={6}><ForeText type='img' img='/static/img/img_download_1.png' /></Col>
@@ -116,9 +119,16 @@ class Down extends React.Component {
 }
 
 function mapStateToProps(state) {
-  return {
-		card:state.card
-	}
+  return {}
 }
 
-export default connect(mapStateToProps)(Down)
+function mapDispatchToProps(dispatch) {
+  return {
+    changePage: (page) => dispatch({
+      type: 'CHANGE_PAGE',
+      page: page
+    })
+  }
+}
+
+export default connect(mapStateToProps,mapDispatchToProps)(Down)

@@ -1,10 +1,48 @@
-.Home .banner{width:100%;height: 3.5rem;line-height: 3.5rem;color: white;text-align: center;font-size: 35px;background: linear-gradient(to right, #b1e1af , #6fcfc1);}
-.Home .content{text-align: center;padding: 0px .2rem}
+.Home .banner{width:100%;height: 850px;color: white;text-align: center;font-size: 35px;background: #545454;}
+.Home .banner .tit{font-size: .5rem;text-align: center;padding-top: 2.8rem;margin-bottom: 2rem}
+
+.Home .content{text-align: center;padding: 0px .2rem;padding-bottom: 1rem}
+.Home .content .con1{padding: 0px 1.4rem}
+.Home .con2{height:5rem;background: #42464D;padding: 0px 1.4rem}
 .Home .content .title1{font-size: 24px;color: #333;margin-top: 1rem;padding-bottom: 15px}
-.Home .content .conSpan{color: #999;font-size: 14px;display: block;text-align: center;line-height: 30px}
+.Home .content .conSpan{color: rgba(66,70,77,1);font-size: 14px;display: block;text-align: center;line-height: 26px;opacity: .7}
 
+.Home .con3{height: 7.3rem;background: #F0F0F2;text-align: center}
+.Home .con3 .title1{font-size: 24px;color: #333;padding-top: 1rem;padding-bottom: 15px}
+.Home .con3 .conSpan{color: rgba(66,70,77,1);font-size: 14px;display: block;text-align: center;line-height: 26px;opacity: .7}
 
+.Home .con3 .mainConCon{padding: .4rem .4rem 1rem;display: none}
+.Home .con3 .mainConCon .title1{padding-top: 0!important;font-size: 18px;}
 
-@media screen and (max-width: 768px) {
-  .Home .content .conSpan{display: inline}
+.Home .con3 .con3Main{margin-top: .5rem;box-shadow: 0px 0px 10px #ddd!important;background: white;padding: 0}
+.Home .con3 .con3Main .mainTitleCon{padding: .3rem 1rem 0rem;border-bottom: 1px solid #eee;font-size: 14px;color: #42464D;}
+.Home .con3 .con3Main .mainTitleCon .titLine{width: 50%;margin: 0 auto;height: 2px;background: rgba(88,128,243,1);margin-top: .1rem;position: relative;top: 2px}
+.Home .form-control{height: 45px;}
+.Home .codeInputWap{position: relative}
+.Home .codeInputWap .codeBtn{position: absolute;right: 20px;top: 0px;font-size: 14px;line-height: 45px;cursor: pointer}
+.Home .codeInputWap input{padding-right: 100px}
+.flexP1{height:'100%';display:flex;align-items:center;justify-content:center;display: -webkit-box; /* Chrome 4+, Safari 3.1, iOS Safari 3.2+ */
+  display: -moz-box; /* Firefox 17- */
+  display: -webkit-flex; /* Chrome 21+, Safari 6.1+, iOS Safari 7+, Opera 15/16 */
+  display: -moz-flex; /* Firefox 18+ */
+  display: -ms-flexbox; /* IE 10 */
+  display: flex; /* Chrome 29+, Firefox 22+, IE 11+, Opera 12.1/17/18, Android 4.4+ */}
+.flexP2{height:100%;display:flex;justify-content:center;flex-direction:column;padding-right:1.5rem;display: -webkit-box; /* Chrome 4+, Safari 3.1, iOS Safari 3.2+ */
+  display: -moz-box; /* Firefox 17- */
+  display: -webkit-flex; /* Chrome 21+, Safari 6.1+, iOS Safari 7+, Opera 15/16 */
+  display: -moz-flex; /* Firefox 18+ */
+  display: -ms-flexbox; /* IE 10 */
+  display: flex; /* Chrome 29+, Firefox 22+, IE 11+, Opera 12.1/17/18, Android 4.4+ */}
+@media screen and (max-width: 800px) {
+  .Home .content .title1{font-size: 20px}
+  .Home .content .conSpan{display: inline;font-size: 12px;}
+  .Home .content .con1{padding: 0}
+  .Home .con2{padding: 0}
+  .Home .leftCon{padding-right: 0!important}
+  .Home .con3{height: auto;background: white;}
+  .Home .con3 .con3Main{box-shadow: 0px 0px 0px transparent!important}
+  .Home .con3 .con3Main .mainTitleCon{padding-left: 0;padding-right: 0;}
+  .Home .con3 .title1{font-size: 20px;}
+  .Home .con3 .conSpan {font-size: 12px;}  
+  .Home .banner{height: 8.5rem}  
 }

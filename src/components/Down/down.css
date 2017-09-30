@@ -1,3 +1,15 @@
+/* .Down .banner{width:100%;height: 9rem;color: white;text-align: center;font-size: .5rem;background: linear-gradient(-180deg, #59BCFF 2%, #3F6AF8 98%);}
+.Down .content{text-align: center;padding: 0px .2rem}
+.Down .content .title1{font-size: 28px;color: #333;margin-top: 1rem;padding-bottom: 15px}
+.Down .content .conSpan{color:rgba(66,70,77,1);font-size: 14px;display: block;text-align: center;line-height: 26px}
+
+
+
+@media screen and (max-width: 768px) {
+  .Down .content .conSpan{display: inline}
+  .Down .content .title1{font-size: .3rem}
+} */
+
 .Down .banner{position: relative; width:100%;height: 8.25rem;color: white;text-align: center;font-size: .4rem;background: linear-gradient(-180deg, #59BCFF 2%, #3F6AF8 98%);}
 .Down .content{text-align: center;padding: 0px .2rem}
 .Down .banner a:link{background:#fff;}
@@ -45,13 +57,16 @@
 .Down .whiterTextTwo .a span{padding-left:0.73rem; font-family: MicrosoftYaHei;font-size: 0.2rem;color: #42464D;display: inline-block; margin-top: 1.25rem;}
 .Down .whiterTextTwo img{width:5rem;height:3.9rem}
 
-
 @media screen and (max-width: 768px) {
   .Down .content .conSpan{display: inline}
   .Down .content .title1{font-size: .3rem}
   .Down .whiterText .rowTitle .tryHeight{padding:0!important}
+  .Down .banner .title{width: 5.5rem;left: .6rem;top:.2rem;height: auto}
+  .Down .downTitleC{left: .6rem;top: 5rem}
+  .Down .banner .downBarIp{left: .6rem;top: 6.5rem}
+  .Down .banner .downBarAr{left: 2.6rem;top: 6.5rem}
 }
 @media screen and (max-width: 990px) {
   .Down .whiterText .rowTitle .tryHeight{padding:0!important}
-  .Down .whiterTextTwo .rowTitleTwo .tryHeight{padding:0!important}
+  .Down .whiterTextTwo .rowTitleTwo .tryHeight{padding:0!important} 
 }
