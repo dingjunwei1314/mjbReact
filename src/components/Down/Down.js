@@ -1,7 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { Row,Col } from 'react-bootstrap';
-import Foot from '../Foot/Foot'
 import './down.css'
 
 function Welcome(props) {
@@ -112,7 +111,6 @@ class Down extends React.Component {
 				   <Col style={{paddingRight:'2rem'}} className='tryHeight' xs={12}  md={6}><ForeText type='img' img='/static/img/img_download_2.png' /></Col>
 				</Row>
 			  </div>
-			  <Foot />
 		  </div>
 		);
 	}

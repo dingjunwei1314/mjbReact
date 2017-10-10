@@ -1,7 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { Row,Col } from 'react-bootstrap';
-import Foot from '../Foot/Foot';
 import './score.css'
 class Score extends React.Component {
   constructor(props) {
@@ -67,7 +66,6 @@ class Score extends React.Component {
               <p style={{color:'#42464D',fontSize:'14px',opacity: 0.7,marginBottom:'5px'}}>保证楼盘的评价及时而准确。</p>
             </Col>
           </Row>
-          <Foot/>
         </div>
       </div>
     );

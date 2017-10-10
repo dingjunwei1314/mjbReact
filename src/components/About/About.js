@@ -1,7 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { Row,Col } from 'react-bootstrap';
-import Foot from '../Foot/Foot'
 import './about.css'
 class About extends React.Component {
   constructor(props) {
@@ -46,7 +45,6 @@ class About extends React.Component {
               <p style={{color:'#777',fontSize:'12px'}}>9:00-18:00(周一到周五)</p>
             </Col>
           </Row>
-          <Foot/>
         </div>
       </div>
     );

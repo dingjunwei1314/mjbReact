@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row,Col } from 'react-bootstrap';
-
+import { Link } from 'react-router'
 class Foot extends React.Component {
   constructor(props) {
     super(props)
@@ -23,7 +23,13 @@ class Foot extends React.Component {
                 <embed  src="/static/img/logo_wechat_n.svg" style={{margin:'10px 20px'}} width={25} type="image/svg+xml"/>
                 <embed  src="/static/img/logo_zhihu_n.svg" style={{margin:'10px 20px'}} width={25} type="image/svg+xml"/>
               </div>
-              <p style={{color:'#777',fontSize:'12px',marginBottom:'0px'}}>首页 · 下载 · “鹰眼”评分体系 · 关于</p>
+              <p style={{color:'#777',fontSize:'12px',marginBottom:'0px'}}>
+                <Link style={{color:"#777"}} to="/">首页</Link> ·
+                <Link style={{color:"#777"}} to="/down">下载</Link> ·
+                <Link style={{color:"#777"}} to="/score">“鹰眼”评分体系</Link> ·
+                <Link style={{color:"#777"}} to="/about">关于</Link>
+                   
+              </p>
             </Col>
           </Row>
           <Row className="show-grid">

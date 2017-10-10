@@ -21,18 +21,25 @@
 .Home .codeInputWap{position: relative}
 .Home .codeInputWap .codeBtn{position: absolute;right: 20px;top: 0px;font-size: 14px;line-height: 45px;cursor: pointer}
 .Home .codeInputWap input{padding-right: 100px}
-.flexP1{height:'100%';display:flex;align-items:center;justify-content:center;display: -webkit-box; /* Chrome 4+, Safari 3.1, iOS Safari 3.2+ */
-  display: -moz-box; /* Firefox 17- */
-  display: -webkit-flex; /* Chrome 21+, Safari 6.1+, iOS Safari 7+, Opera 15/16 */
-  display: -moz-flex; /* Firefox 18+ */
-  display: -ms-flexbox; /* IE 10 */
-  display: flex; /* Chrome 29+, Firefox 22+, IE 11+, Opera 12.1/17/18, Android 4.4+ */}
-.flexP2{height:100%;display:flex;justify-content:center;flex-direction:column;padding-right:1.5rem;display: -webkit-box; /* Chrome 4+, Safari 3.1, iOS Safari 3.2+ */
-  display: -moz-box; /* Firefox 17- */
-  display: -webkit-flex; /* Chrome 21+, Safari 6.1+, iOS Safari 7+, Opera 15/16 */
-  display: -moz-flex; /* Firefox 18+ */
-  display: -ms-flexbox; /* IE 10 */
-  display: flex; /* Chrome 29+, Firefox 22+, IE 11+, Opera 12.1/17/18, Android 4.4+ */}
+.Home .flexP1{height:100%;display:flex;align-items:center;justify-content:center;display: -webkit-box; 
+  display: -moz-box;
+  display: -webkit-flex; 
+  display: -moz-flex; 
+  display: -ms-flexbox; 
+  display: flex;}
+  .Home .flexP2{height:100%;display:flex;justify-content:center;flex-direction:column;padding-right:1.5rem;display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex; 
+  display: -moz-flex; 
+  display: -ms-flexbox; 
+  display: flex;
+  padding-right: 0!important}
+
+.Home .coopItemWap{display: flex;align-items: center}
+.Home .colStyle{margin-top:.8rem}
+.Home .pStyle0{color:#333;font-size:14px;font-weight:bold;margin-bottom:15px;margin-top:5px}
+.Home .pStyle1{color:#777;font-size:12px;margin-bottom:0px;line-height:26px}
+.Home .pStyle2{color:#777;font-size:12px;line-height:26px}
 @media screen and (max-width: 800px) {
   .Home .content .title1{font-size: 20px}
   .Home .content .conSpan{display: inline;font-size: 12px;}
@@ -45,4 +52,6 @@
   .Home .con3 .title1{font-size: 20px;}
   .Home .con3 .conSpan {font-size: 12px;}  
   .Home .banner{height: 8.5rem}  
+  .Home .coopItem{margin-top: 20px}
+  .Home .coopItemWap{display: block}
 }
