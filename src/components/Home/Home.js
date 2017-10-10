@@ -26,9 +26,6 @@ class Home extends React.Component {
   //下载
   btnDownClick(){
   }
-  add=()=>{
-    console.log(this.state)
-  }
   //tab切换
   tabChange(page){
     this.setState({activePage:page})
@@ -116,7 +113,7 @@ class Home extends React.Component {
     activeConStyle={display:'block'};
     return (
       <div className="Home">
-        <div className="banner" onClick={this.add}>
+        <div className="banner">
           <p className="tit">
             <span style={{marginRight:'.6rem'}}>理 性 决 策</span>
             <span>质 选 新 居</span>
