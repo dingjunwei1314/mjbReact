@@ -3,17 +3,9 @@ import { connect } from 'react-redux';
 import { browserHistory } from 'react-router'
 import  { Navbar,Nav,NavItem } from 'react-bootstrap';
 class Header extends React.Component {
-  constructor(props){
-		super(props)
-		this.state={
-		
-    }
-  }
   mainNav(page){
     browserHistory.push(page)
   }
-	componentDidMount() {
-	}
   render() {
     let activePageStyle={
       color:'#5880F3'

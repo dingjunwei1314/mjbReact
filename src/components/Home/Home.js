@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router'
 import { Row,Col,FormGroup,FormControl } from 'react-bootstrap';
 import Btn from '../common/Btn';
+import setFontsize from '../../common/js/setFontsize'
 import './home.css'
 
 class Home extends React.Component {
@@ -85,6 +86,7 @@ class Home extends React.Component {
     document.body.scrollTop = document.documentElement.scrollTop = 0;
   }
   componentDidMount() {
+    setFontsize()
     let _this=this
     this.initPosition()
     this.props.changePage(1);
@@ -99,6 +101,11 @@ class Home extends React.Component {
         }
       }
     }
+
+    window.onresize=function(){
+       setFontsize()
+    }
+
   }
   componentWillUnmount(){
     if(this.count!=null){
@@ -315,7 +322,7 @@ class Home extends React.Component {
                     type="text"
                     name="city"
                     value={this.state.form.city}
-                    placeholder="城市"
+                    placeholder="城市,例：北京市"
                     onChange={this.handleChangeForm}
                   />
                 </FormGroup>
@@ -324,7 +331,7 @@ class Home extends React.Component {
                     type="text"
                     name="area"
                     value={this.state.form.area}
-                    placeholder="行政区域"
+                    placeholder="行政区域，例：浦东区"
                     onChange={this.handleChangeForm}
                   />
                 </FormGroup>

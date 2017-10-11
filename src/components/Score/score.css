@@ -2,7 +2,7 @@
 .Score .content{text-align: center;padding: 0px .2rem}
 .Score .content .title1{font-size: 28px;color: #333;margin-top: 1rem;padding-bottom: 15px}
 .Score .content .conSpan{color: rgba(66,70,77,1);font-size: 14px;display: block;text-align: center;line-height: 26px;opacity: .7}
-
+.Score #mydiv{height: 3.5rem;position: relative;overflow: hidden}
 
 
 @media screen and (max-width: 768px) {

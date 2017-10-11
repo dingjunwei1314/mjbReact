@@ -2,15 +2,7 @@ import React from 'react';
 import { Row,Col } from 'react-bootstrap';
 import { Link } from 'react-router'
 class Foot extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state={
-      
-    }
-  }
-  componentDidMount() {
-    
-  }
+
   render() {
     return (
       <div className="Foot" style={{textAlign:'center'}}>
@@ -28,7 +20,6 @@ class Foot extends React.Component {
                 <Link style={{color:"#777"}} to="/down">下载</Link> ·
                 <Link style={{color:"#777"}} to="/score">“鹰眼”评分体系</Link> ·
                 <Link style={{color:"#777"}} to="/about">关于</Link>
-                   
               </p>
             </Col>
           </Row>

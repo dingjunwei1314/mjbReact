@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { Row,Col } from 'react-bootstrap';
+import setFontsize from '../../common/js/setFontsize'
 import './down.css'
 
 function Welcome(props) {
@@ -62,6 +63,10 @@ class Down extends React.Component {
 		}
 	}
 	componentDidMount() {
+		setFontsize()
+		window.onresize=function(){
+	       setFontsize()
+	    }
 		document.body.scrollTop = document.documentElement.scrollTop = 0;
     this.props.changePage(2)
 	}
